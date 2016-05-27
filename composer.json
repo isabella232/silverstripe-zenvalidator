@@ -1,5 +1,5 @@
 {
-    "name": "sheadawson/silverstripe-zenvalidator",
+    "name": "npr/silverstripe-zenvalidator",
     "type": "silverstripe-module",
     "description": "Faster, easier client and server-side form validation for SilverStripe",
     "keywords": [
@@ -25,5 +25,5 @@
     "extra": {
         "installer-name": "zenvalidator"
     },
-    "homepage": "https://github.com/sheadawson/silverstripe-zenvalidator"
+    "homepage": "https://github.com/nprdm/silverstripe-zenvalidator"
 }

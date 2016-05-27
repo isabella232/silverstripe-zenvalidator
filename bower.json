@@ -1,0 +1,12 @@
+{
+  "name": "npr/silverstripe-zenvalidator",
+  "version": "1.0.0",
+  "description": "npr/silverstripe-zenvalidator",
+  "author": "npr",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "parsleyjs": "^2.3.11"
+  }
+}

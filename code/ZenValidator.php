@@ -91,11 +91,11 @@ class ZenValidator extends Validator
     {
         $this->parsleyEnabled = true;
         Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
-        Requirements::javascript(ZENVALIDATOR_PATH . '/javascript/parsley/parsley.remote.min.js');
+        Requirements::javascript(ZENVALIDATOR_PATH . '/bower_components/parsleyjs/src/parsley.js');
 
         $lang = i18n::get_lang_from_locale(i18n::get_locale());
         if ($lang != 'en') {
-            Requirements::javascript(ZENVALIDATOR_PATH . '/javascript/parsley/i18n/' . $lang . '.js');
+            Requirements::javascript(ZENVALIDATOR_PATH . '/bower_components/parsleyjs/src/i18n/' . $lang . '.js');
         }
 
         if ($this->form) {
